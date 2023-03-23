@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+/* sellers table section */
+#sellers-table-section{
+    background-color: #212529;
+    min-height: 600px;
+    opacity: 0.8;
+    padding: 5% 15%;
+}
+
+.sellers-table{
+    margin-top: 5%;
+    width: 70%;
+    text-align: center;
+    border: #000 2px;
+}
+
+.add-save-seller{
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.seller-btn{
+    margin: 10px ;
+}
+
+.seller-btn:hover, .edit-seller-btn:hover{
+    background-color: #5F2FFF !important;
+    color: #fff !important;
+}
+
+
+.delete-seller-btn:hover{
+    background-color: #ff4c68 !important;
+    color: #fff !important;
+}
