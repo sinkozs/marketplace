@@ -1,0 +1,140 @@
+body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* SELLERS PAGE STYLE */
+
+
+/* sellers table section */
+#sellers-table-section, #products-table-section{
+    min-height: 400px;
+    padding: 5% 15%;
+
+    background-color: #F9FAFB;
+}
+
+.sellers-table, .products-table{
+    margin-top: 5%;
+    width: 70%;
+    text-align: center;
+}
+
+.add-save-seller, .add-save-product{
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.seller-btn, .product-btn{
+    margin: 10px ;
+}
+
+.seller-btn:hover, .edit-seller-btn:hover, .product-btn:hover, .edit-product-btn:hover{
+    background-color: #5F2FFF !important;
+    color: #fff !important;
+}
+
+
+.delete-seller-btn:hover, .delete-product-btn:hover{
+    background-color: #ff4c68 !important;
+    color: #fff !important;
+}
+
+@media(max-width: 900px){
+
+    th{
+        font-size: 0.875rem !important;
+    }
+    td{
+        font-size: 12px !important;
+    }
+    .edit-seller-btn, .delete-seller-btn{
+        font-size: 8px !important;
+    }
+
+    .seller-btn{
+        font-size: 0.875rem !important;
+    }
+}
+
+/* PRODUCTS PAGE STYLE*/
+
+.item-name{
+    color: #000;
+    text-decoration: none;
+}
+
+
+.item-name:hover{
+    color: #ff4c68;
+    cursor: pointer;
+}
+
+/* PRODUCT ITEM PAGE STYLE */
+
+#product-details{
+    background-color: #F8F8F8;
+}
+
+.product-name{
+    margin: 3% 0;
+}
+
+.col-product-description{
+    padding-top: 2%;
+}
+
+.col-product-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-img{
+    max-width: 85%;
+}
+.add-cart-btn{
+    margin-top: 10%;
+    margin-bottom: 7%;
+}
+
+.back-to-products-btn{
+    margin: 10% 0 7% 3%;
+    
+}
+
+@media(max-width: 900px){
+    .product-name{
+        padding: 15% 0 10%;
+    }
+
+    .product-img{
+        max-width: 100%;
+    }
+
+    .add-cart-btn, .back-to-products-btn{
+        font-size: 14px !important;
+    }
+}
+
+/* ADD NEW PRODUCT PAGE STYLE */
+/* #add-product-form{
+    font-family: 'Montserrat', sans-serif !important;
+} */
+.form-title{
+    font-weight: 500 !important;
+    color: #5F2FFF;
+    margin: 5% 0 5%;
+}
+
+.form-section-title{
+    margin: 3% 0 2%;
+}
+
+.save-new-product-btn{
+    margin: 3% 0 ;
+}
+
+.save-new-product-btn:hover{
+    background-color: #5F2FFF !important;
+}

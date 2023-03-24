@@ -24,10 +24,33 @@ h3{
 }
 
 p{
+    
     color: #BfBfBf;
 }
 
+a{
+    outline: 0;
+    text-decoration: none !important;
+}
 
+@media(max-width: 900px){
+    h1{
+        font-size: calc(1.375rem + 1.5vw);
+    }
+
+    h3{
+        font-size: calc(1.2rem + .6vw);
+    } 
+
+    h4{
+        font-size: 1.1rem !important;
+    }
+
+    p{
+        font-size: calc(0.9rem + .2vw);
+    }
+
+} 
 
 .container-fluid-wrapper{
     padding: 3% 15%;
@@ -66,8 +89,6 @@ p{
     width: 100%;
     max-width: 560px;
     transform: rotate(5deg);
- 
-
 }
 
 @media (max-width: 900px) {
@@ -75,9 +96,12 @@ p{
       max-width: 500px;
       transform: rotate(0deg);
     }
+
+    .title-section-btn{
+        font-size: 0.875rem !important;
+    }
   }
   
-
 /* features section */
 #features{
     padding: 5% 15%;
@@ -99,6 +123,12 @@ p{
     color: #5F2FFF;
 }
 
+@media(max-width: 900px){
+    .feature-icon{
+        font-size: 3rem !important;
+    }
+}
+
 /* category section */
 #product-categories{
     background-color: #EEECFF;
@@ -109,14 +139,22 @@ p{
 .category-title{
     color: #5F2FFF;
     text-align: center;
-    padding: 5% 2% !important;
+    padding: 7% 2% 3% !important;
 }
-
-
 
 .category-img{
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 900px){
+    .category-title{
+        padding: 12% 2% 6% !important;
+    }
+
+    .card{
+        margin-bottom: 1.5rem !important;
+    }
 }
 
 .btn-category{
@@ -134,6 +172,7 @@ p{
     background-color: #ff4c68 !important;
     
 }
+
 /* testimonials section */
 #testimonials{
     padding: 7% 15%;
@@ -141,6 +180,7 @@ p{
     background-color: #8F6DFF;
     color: #fff;
 }
+
 .testimonial-img{
     width: 13%;
     border-radius: 100%;
@@ -148,7 +188,7 @@ p{
 }
 
 .carousel-item{
-    height: 250px;
+    padding-bottom: 0 !important;
 
 }
 
@@ -161,9 +201,22 @@ p{
 }
 
 .social-icon{
+    font-size: 1.3rem !important;
     margin: 20px 10px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .social-icon:hover{
     color: #ff4c68;
+}
+
+@media (max-width: 900px){
+    .copyright{
+        font-size: 12px;
+    }
+
+    .social-icon{
+        font-size: 1rem !important;
+    }
 }

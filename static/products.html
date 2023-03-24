@@ -10,7 +10,7 @@
 
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="sellers-style.css">
+  <link rel="stylesheet" href="sellers-and-product-style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
   <!-- Fontawesome -->
@@ -44,7 +44,7 @@
   
         <div class="row">
           <div class="col-lg-6 main-title-box">
-            <h1>Sellers <br> Edit sellers and new ones.</h1>
+            <h1>Products<br> Edit products and new ones.</h1>
           </div>
     
           <div class="col-lg-6 col-12">
@@ -55,8 +55,8 @@
     </div>
   </section>
 
-  <section id="sellers-table-section">
-    <table class="table table-dark sellers-table ">
+  <section id="products-table-section">
+    <table class="table table-light products-table ">
         <thead>
           <tr>
             <th scope="col">ID</th>
@@ -71,54 +71,58 @@
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>Table</td>
+            <td><a href="item-info.html" class="item-name">Table</a></td> 
             <td>100$</td>
             <td>Furniture</td>
             <td>1</td>
-            <td><a href="#" class="btn btn-sm btn-outline-light edit-seller-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</a></td>
-            <td><a href="#" class="btn btn-sm btn-outline-light delete-seller-btn"><i class="fa-solid fa-trash"></i> Delete</a></td>
+            <td><a href="#" class="btn btn-sm btn-outline-dark edit-product-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</a></td>
+            <td><a href="#" class="btn btn-sm btn-outline-dark delete-product-btn"><i class="fa-solid fa-trash"></i> Delete</a></td>
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>Pink Jacket</td>
+            <td><a href="item-info.html" class="item-name">Pink Jacket</a></td>
             <td>20$</td>
             <td>Clothes</td>
             <td>3</td>
-            <td><a href="#" class="btn btn-sm btn-outline-light edit-seller-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</a></td>
-            <td><a href="#" class="btn btn-sm btn-outline-light delete-seller-btn"><i class="fa-solid fa-trash"></i> Delete</a></td>
+            <td><a href="#" class="btn btn-sm btn-outline-dark edit-product-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</a></td>
+            <td><a href="#" class="btn btn-sm btn-outline-dark delete-product-btn"><i class="fa-solid fa-trash"></i> Delete</a></td>
           </tr>
           <tr>
             <th scope="row">3</th>
-            <td>Samsung Galaxy S10e</td>
+            <td><a href="item-info.html" class="item-name">Samsung Galaxy S10e</a></td>
             <td>200$</td>
             <td>Electronics</td>
             <td>1</td>
-            <td><a href="#" class="btn btn-sm btn-outline-light edit-seller-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</a></td>
-            <td><a href="#" class="btn btn-sm btn-outline-light delete-seller-btn"><i class="fa-solid fa-trash"></i> Delete</a></td>
+            <td><a href="#" class="btn btn-sm btn-outline-dark edit-product-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</a></td>
+            <td><a href="#" class="btn btn-sm btn-outline-dark delete-product-btn"><i class="fa-solid fa-trash"></i> Delete</a></td>
           </tr>
         </tbody>
       </table>
 
-      <div class="add-save-seller">
-        <a href="#" class="btn btn-lg btn-light seller-btn"><i class="fa-solid fa-plus"></i> Add new seller</a>
-        <a href="#" class="btn btn-lg btn-light seller-btn"><i class="fa-solid fa-check"></i> Save</a>
+      <div class="add-save-product">
+        <a href="add-product.html" class="btn btn-lg btn-dark product-btn"><i class="fa-solid fa-plus"></i> Add new product</a>
+        <a href="#" class="btn btn-lg btn-dark product-btn"><i class="fa-solid fa-check"></i> Save</a>
       </div>
       
 
   </section>
 
-
   <footer id="footer">
-    <i class="fa-brands fa-facebook social-icon"></i>
-    <i class="fa-brands fa-instagram social-icon"></i>
-    <i class="fa-brands fa-twitter social-icon"></i>
-    <i class="fa-solid fa-envelope social-icon"></i>
-    <p>© Copyright Adok-Veszek</p>
+    <a href="https://www.facebook.com/" target="_blank">
+      <i class="fa-brands fa-facebook social-icon"></i>
+    </a>
+    <a href="https://www.instagram.com/" target="_blank">
+      <i class="fa-brands fa-instagram social-icon"></i>
+    </a>
+    <a href="https://www.twitter.com/" target="_blank">
+      <i class="fa-brands fa-twitter social-icon"></i>
+    </a>
+    <a href="https://mail.google.com/" target="_blank">
+      <i class="fa-solid fa-envelope social-icon"></i>
+    </a>
+    <p class="copyright">© Copyright Adok-Veszek</p>
 
   </footer>
-
-
-    
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
