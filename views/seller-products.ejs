@@ -1,0 +1,65 @@
+<%- include('header') -%>
+<%- include('navbar', {active: 'products'}) -%>
+  <section id="title">
+    <!-- Title -->
+
+    <div class="container-fluid">
+      <div class="container-fluid-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.ejs">Adok-Veszek</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.ejs">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active-menu-link" href="sellers.ejs">Sellers</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="products.ejs">Products</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+  
+        <div class="row">
+          <div class="col-lg-6 main-title-box">
+            <h1>Products<br> See all the products of a seller.</h1>
+          </div>
+    
+          <div class="col-lg-6 col-12">
+            <img src="images/products-img.jpg" alt="" class="title-img">
+          </div>
+        </div>
+      </div>   
+    </div>
+  </section>
+
+  <section id="products-table-section">
+    <table class="table table-light products-table ">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Category</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>IKEA table</td>
+            <td>40$</td>
+            <td>Furniture</td>
+
+          </tr>
+        </tbody>
+      </table>
+
+    
+  </section>
+  <%- include('footer') -%>

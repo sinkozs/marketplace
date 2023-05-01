@@ -1,0 +1,54 @@
+<%- include('header') -%>
+<%- include('navbar', {active: 'products'}) -%>
+
+    <section id="add-product-form">
+        <div class="container-fluid">
+            <div class="container-fluid-wrapper">
+
+                <h1 class="form-title">Edit product</h1>
+
+                <form class="product-form">
+                    <div class="mb-3">
+                      <input type="text" class="form-control" id="edited-product-name" placeholder="Edit product name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="number" class="form-control" id="edited-product-price" placeholder="Edit Price" required>
+                    </div>
+
+                    <h4 class="form-section-title">Add description</h4>
+                    <div class="mb-3">
+                        <textarea class="form-control rounded bg-light" id="edited-product-description" rows="5" placeholder="Edit product description"></textarea>
+                    </div>
+        
+                    <h4 class="form-section-title">Edit category</h4>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="category-clothes-checkbox">
+                      <label class="form-check-label" for="category-clothes-checkbox">Clothes</label>
+                    </div>
+        
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="category-electronics-checkbox">
+                        <label class="form-check-label" for="category-electronics-checkbox">Electronics</label>
+                    </div>
+        
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="category-books-checkbox">
+                        <label class="form-check-label" for="category-books-checkbox">Books</label>
+                    </div>
+        
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="category-furniture-checkbox">
+                        <label class="form-check-label" for="category-furniture-checkbox">Furniture</label>
+                      </div>
+        
+                    <h4 class="form-section-title">Upload new product image</h4>
+                    <div class="mb-3">
+                        <input type="file" class="form-control" id="edited-product-image" name="edited-product-image">
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-dark save-edited-product-btn">Save</button>
+                  </form>
+            </div>
+        </div>
+    </section>
+
+    <%- include('footer') -%>

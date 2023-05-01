@@ -33,6 +33,11 @@ a{
     text-decoration: none !important;
 }
 
+.active-menu-link{
+    color: #fff !important;
+    font-weight: 900 !important;
+}
+
 @media(max-width: 900px){
     h1{
         font-size: calc(1.375rem + 1.5vw);

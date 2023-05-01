@@ -1,14 +1,10 @@
-body{
-    width: 100%;
-    font-family: 'Montserrat', sans-serif !important;
-}
 
 /* SELLERS PAGE STYLE */
 
 
 /* sellers table section */
 #sellers-table-section, #products-table-section{
-    min-height: 400px;
+    /* min-height: 400px; */
     padding: 5% 15%;
 
     background-color: #F9FAFB;
@@ -118,9 +114,9 @@ body{
 }
 
 /* ADD NEW PRODUCT PAGE STYLE */
-/* #add-product-form{
+#add-product-form{
     font-family: 'Montserrat', sans-serif !important;
-} */
+} 
 .form-title{
     font-weight: 500 !important;
     color: #5F2FFF;

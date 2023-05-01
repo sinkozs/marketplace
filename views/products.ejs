@@ -1,0 +1,68 @@
+<%- include('header') -%>
+<%- include('navbar', {active: 'products'}) -%>
+
+        <div class="row">
+          <div class="col-lg-6 main-title-box">
+            <h1>Products<br> Edit products and new ones.</h1>
+          </div>
+    
+          <div class="col-lg-6 col-12">
+            <img src="images/products-img.jpg" alt="" class="title-img">
+          </div>
+        </div>
+      </div>   
+    </div>
+  </section>
+
+  <section id="products-table-section">
+    <table class="table table-light products-table ">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Category</th>
+            <th scope="col">Seller ID</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td><a href="item-info.html" class="item-name">Table</a></td> 
+            <td>100$</td>
+            <td>Furniture</td>
+            <td>1</td>
+            <td><a href="edit-product.html" class="btn btn-sm btn-outline-dark edit-product-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</a></td>
+            <td><a href="#" class="btn btn-sm btn-outline-dark delete-product-btn"><i class="fa-solid fa-trash"></i> Delete</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td><a href="item-info.html" class="item-name">Pink Jacket</a></td>
+            <td>20$</td>
+            <td>Clothes</td>
+            <td>3</td>
+            <td><a href="edit-product.html" class="btn btn-sm btn-outline-dark edit-product-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</a></td>
+            <td><a href="#" class="btn btn-sm btn-outline-dark delete-product-btn"><i class="fa-solid fa-trash"></i> Delete</a></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td><a href="item-info.html" class="item-name">Samsung Galaxy S10e</a></td>
+            <td>200$</td>
+            <td>Electronics</td>
+            <td>1</td>
+            <td><a href="edit-product.html" class="btn btn-sm btn-outline-dark edit-product-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</a></td>
+            <td><a href="#" class="btn btn-sm btn-outline-dark delete-product-btn"><i class="fa-solid fa-trash"></i> Delete</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="add-save-product">
+        <a href="/product/new" class="btn btn-lg btn-dark product-btn"><i class="fa-solid fa-plus"></i> Add new product</a>
+        <a href="#" class="btn btn-lg btn-dark product-btn"><i class="fa-solid fa-check"></i> Save</a>
+      </div>
+      
+
+  </section>
+  <%- include('footer') -%>
